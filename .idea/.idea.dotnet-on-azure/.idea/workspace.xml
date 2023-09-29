@@ -12,7 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e065e1fe-c205-44aa-b29c-94c4db11f08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.API/MunsonPickles.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.API/MunsonPickles.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/MunsonPickles.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/MunsonPickles.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/_Imports.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,34 +29,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2W3JqY9feOZOS1fhHcIb2eBe2KI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/ashishkhanal/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/ashishkhanal/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/ashishkhanal/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/ashishkhanal/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/ashishkhanal/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/ashishkhanal/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Compound.API+Web">
     <configuration name="MunsonPickles.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MunsonPickles.API/MunsonPickles.API.csproj" />

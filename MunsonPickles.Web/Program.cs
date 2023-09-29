@@ -39,13 +39,13 @@ builder.Services.AddMicrosoftIdentityConsentHandler();
 
 //Configuring appsettings section AzureAdB2C, into IOptions
 builder.Services.Configure<OpenIdConnectOptions>(builder.Configuration.GetSection("AzureAdB2C"));
-
 // AZURE ADB2C Setup - End
 
 // Add my services. I added this.
 builder.Services.AddScoped<ProductService>();
 
 builder.Services.AddHttpClient();
+builder.Services.AddAntiforgery();
 
 var app = builder.Build();
 
@@ -60,7 +60,6 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-app.UseRouting();
 
 // Add the Microsoft Identity Web cookie policy
 //app.UseCookiePolicy();
@@ -68,6 +67,7 @@ app.UseRouting();
 // Add the ASP.NET Core authentication service
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddServerRenderMode();  // 👈 Stuff I added for Server Side Interactivity
