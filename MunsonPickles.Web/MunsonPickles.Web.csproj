@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+      <UserSecretsId>2decef82-4b2f-4ad6-8dec-fe8dcce052a1</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid" Version="8.0.0-rc.1.23421.29" />
+      <PackageReference Include="Microsoft.Identity.Web" Version="2.14.0" />
+      <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.14.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MunsonPickles.Shared\MunsonPickles.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Components\ImageUpload.razor" />
+      <_ContentIncludedByDefault Remove="Components\ProductReviews.razor" />
+      <_ContentIncludedByDefault Remove="Components\WriteReview.razor" />
+    </ItemGroup>
+    
+</Project>

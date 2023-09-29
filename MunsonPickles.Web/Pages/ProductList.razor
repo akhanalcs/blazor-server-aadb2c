@@ -1,0 +1,30 @@
+@page "/products"
+@inject ProductService ProductService
+@attribute [RenderModeServer]
+@attribute [StreamRendering(true)]
+
+<h3>Products List</h3>
+
+@if (Products == null)
+{
+    <p>We're picking the pickles!</p>
+}
+else
+{
+    <div class="pt-3">
+        <QuickGrid Items="@Products">
+            <PropertyColumn Title="Name" Property="@(p => p.Name)" />
+            <PropertyColumn Title="Type" Property="@(p => p.ProductType)" />
+            <PropertyColumn Property="@(p => p.Description)" />
+        </QuickGrid>
+    </div>
+}
+
+@code {
+    private IQueryable<Product>? Products { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = (await ProductService.GetAllProductsAsync())?.AsQueryable();
+    }
+}

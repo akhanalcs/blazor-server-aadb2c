@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="API+Web" type="CompoundRunConfigurationType">
+    <toRun name="MunsonPickles.API: https" type="LaunchSettings" />
+    <toRun name="MunsonPickles.Web: https" type="LaunchSettings" />
+    <method v="2" />
+  </configuration>
+</component>
