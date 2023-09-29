@@ -11,12 +11,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e065e1fe-c205-44aa-b29c-94c4db11f08c" name="Changes" comment="">
+    <list default="true" id="e065e1fe-c205-44aa-b29c-94c4db11f08c" name="Changes" comment="Some cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.API/MunsonPickles.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.API/MunsonPickles.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/MunsonPickles.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/MunsonPickles.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/Shared/LoginDisplay.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/Shared/LoginDisplay.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ashishkhanal/RiderProjects/blazor-server-aadb2c/MunsonPickles.Web/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/ashishkhanal/RiderProjects/blazor-server-aadb2c/MunsonPickles.Web/Shared/LoginDisplay.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/ashishkhanal/RiderProjects/blazor-server-aadb2c/MunsonPickles.Web/Shared/NavMenu.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/ashishkhanal/RiderProjects/blazor-server-aadb2c/MunsonPickles.Web/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -152,6 +156,15 @@
       <updated>1695955521985</updated>
       <workItem from="1695955523095" duration="1986000" />
     </task>
+    <task id="LOCAL-00001" summary="Some cleanup">
+      <option name="closed" value="true" />
+      <created>1695959263654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695959263654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +172,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Some cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup" />
   </component>
 </project>
