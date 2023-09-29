@@ -13,8 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e065e1fe-c205-44aa-b29c-94c4db11f08c" name="Changes" comment="Some cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-on-azure/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/Shared/LoginDisplay.razor" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/Shared/LoginDisplay.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MunsonPickles.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MunsonPickles.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MunsonPickles.API/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
